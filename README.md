@@ -1,8 +1,8 @@
 # data-science-final-project
 Final Project on data science.
-## submitted by: Yakir Zana & Erez Bashari.
+## Submitted by: Yakir Zana & Erez Bashari.
 
-# project description:
+# Project description:
 collect watsapp chats and train modal according messages sent by men and women. generate a new message for men and women and classify thus messages using the trained model.
 
 # STEP 1: Whatsapp parsing
@@ -19,9 +19,9 @@ load men and women messages collected in step 1, select ~5000 randomly message e
 * translate to English (to support steeming and stop words)
 * steeming using PorterStemmer
 * remove stop words
-### create BOW
+### Create BOW
 we adjust the number of words in the vocabulary to be 1000 because we see that give us the best predictions. save the vocabulary for step 4.
-### train the model
+### Train the model
 split the all cleaned messages randomly to train & test.
 ### NB
 simply train nb model and gain ~ 0.67 accuracy rate
@@ -75,6 +75,6 @@ Men: 53.2% in prediction.
 Women: 98.66666666666667% in prediction.
 ### Confusion Matrix
 ![](https://github.com/yakirzana/data-science-final-project/blob/master/cm.PNG)
-### conclusion:
+### Conclusion:
 we can see that the classifier model work great on women class and less on the man class. this result can become because of many factors as we translated the Hebrew sentence to English and can be because that the man chats are from friends in the class and in the woman case it more wide topics.
 
