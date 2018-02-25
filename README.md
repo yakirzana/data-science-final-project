@@ -1,7 +1,7 @@
 # data-science-final-project
 Final Project on data science.
 ## Submitted by: Yakir Zana & Erez Bashari.
-
+### Submission note: we send mail with the Data to our advisor sigal shaked
 # Project description:
 collect watsapp chats and train modal according messages sent by men and women. generate a new message for men and women and classify thus messages using the trained model.
 
