@@ -70,9 +70,9 @@ clean the messages as we do in step 2 and create BOW using the vocabulary from s
 ###
 load the classifier model from step 2 and use it to predict the gender of our generated messages.
 ## Results:
-Men: We Succeded in: 53.2% in prediction.
+Men: 53.2% in prediction.
 ###
-Women: We Succeded in: 98.66666666666667% in prediction.
+Women: 98.66666666666667% in prediction.
 ### Confusion Matrix
 ![](https://github.com/yakirzana/data-science-final-project/blob/master/cm.PNG)
 ### conclusion:
